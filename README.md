@@ -27,6 +27,7 @@ rails _5.0.7.2_ new DataBaseDesignSample -d mysql
 
 ### Association
 - has_many :groups, through: :groups_users
+- has_many :groups_users
 - has_many :tweets
 
 
@@ -51,6 +52,7 @@ rails _5.0.7.2_ new DataBaseDesignSample -d mysql
 
 ### Association
 - has_many :users, through: :groups_users
+- has_many :groups_users
 - has_many :tweets
 
 
