@@ -17,7 +17,6 @@ rails _5.0.7.2_ new DataBaseDesignSample -d mysql
 
 
 
-
 ## usersテーブル
 
 |Column|Type|Options|
