@@ -55,13 +55,13 @@ rails _5.0.7.2_ new DataBaseDesignSample -d mysql
 - has_many :tweets
 
 
-## tweetsテーブル
+## messagesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
-|body|text|
+|content|string|
 |image|string|
 
 ### Association
