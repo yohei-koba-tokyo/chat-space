@@ -41,6 +41,7 @@
   &__group-list {
     color: $white-color;
     font-weight: bold;
+    height: calc(100% - 100px);
     &__group {
       margin: 0 20px;
       &__name {
@@ -102,8 +103,9 @@
   .messages {
     background-color: #fafafa;
     width: 100%;
-    height: calc(100% - 190px);
-    padding: 35px 40px 0 40px;
+    padding: 35px 40px 90px 40px;
+    overflow: scroll;
+    height: calc(100% - 100px);
     .message {
       .upper-message {
         display: flex;
@@ -127,7 +129,7 @@
   }
   &__message-form {
     position: absolute;
-    bottom: 0px;
+    top: calc(100vh - 90px);
     background-color: #d2d2d2;
     width: 100%;
     height: 90px;
