@@ -65,8 +65,8 @@ $(function(){
         $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
       }
     })
-    .fail(function() {
-      console.log('error');
+    .error(function() {
+      alert('JavaScript error');
     });
   };
   if (document.location.href.match(/\/groups\/\d+\/messages/)) {
