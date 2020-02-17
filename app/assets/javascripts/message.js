@@ -65,7 +65,7 @@ $(function(){
         $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
       }
     })
-    .error(function() {
+    .fail(function() {
       alert('JavaScript error');
     });
   };
